@@ -1,0 +1,16 @@
+#There are many corny phrases out there. This random corny phrases generator will definitely make you cringe. It's designed to after all! 
+
+#Enjoy. Or not...because that would be the point!
+import random 
+
+#Phrases
+phrase = ("That's so swag","Das so bussin", "That is very pog champ", "Go cry about it", "You're so silly", "No problem", "Count on me", "I’m pushing the envelop ", "Kiss the homies goodnight", "Super sad don’t hit me up", "Suck it up", "Snap out of it", "It gets better", "Look on the bright side", "Sheesh", "Catch you on the flip side", "Look alive")
+
+#Nicknames
+nickname = ("swag master", "brudda", "dawg", "sweetcakes", "my guy", "home  skillet biscuit", "bestie", "bozo", "swagster", "homie", "brethren", "broski", "bruh", "cuz", "dude", "bruv","brosephine")
+
+#Now Randomize
+num = random.randrange(0,17)
+num2 = random.randrange(0,17)
+print (phrase[num] + ','+ ' '+ nickname[num2] + '!')
+  
